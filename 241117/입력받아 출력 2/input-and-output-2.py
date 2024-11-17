@@ -1,8 +1,8 @@
-# 입력
-id_number = "940312-1082836"
-
-# 하이픈 제거
-cleaned_id_number = id_number.replace("-", "")
+# 변수 선언, 입력
+inp = input()
+arr = inp.split("-")
+a = int(arr[0])
+b = int(arr[1])
 
 # 출력
-print(cleaned_id_number)
+print(f"{a}{b}")
