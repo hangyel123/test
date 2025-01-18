@@ -5,7 +5,7 @@ public class Main {
         // Please write your code here.
         Scanner sc = new Scanner(System.in);
 
-        String c;
+        char c;
         int a,b;
 
         c = sc.next().charAt(0);
