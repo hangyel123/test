@@ -1,17 +1,21 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
-        // Please write your code here.
+    public static void main (String args[]) {
         Scanner sc = new Scanner(System.in);
 
-        char c;
-        int a,b;
+        // 변수 선언
+        char a;
+        double b, c;
 
-        c = sc.next().charAt(0);
-        a= sc.nextInt();
-        b = sc.nextInt();
+        // 입력
+        a = sc.next().charAt(0);
 
-        System.out.printf("%c\n%d\n%d",c,a,b);
+        b = sc.nextDouble();
+        c = sc.nextDouble();
+
+        // 출력
+        System.out.println(a);
+        System.out.printf("%.2f\n%.2f", b, c);
     }
 }
