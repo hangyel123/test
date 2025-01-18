@@ -5,8 +5,8 @@ public class Main {
         int b=3;
 
         a=b;
-        system.out.println("3");
+        System.out.println("3");
 
-        system.out.println("3");
+        System.out.println("3");
     }
 }
