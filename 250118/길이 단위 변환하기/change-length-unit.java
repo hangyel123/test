@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        // Please write your code here.
-        double ft = 30.48;
-        int mi = 160934;
+        // 변수 선언
+        double a = 9.2;
+	    double b = 1.3;
 
-        System.out.printf("9.2ft = %.2f\n",9.2*ft);
-        System.out.printf("1.3mi = %.2f",1.3*mi);
+        // 출력
+        System.out.printf("%.1fft = %.1fcm\n%.1fmi = %.1fcm", a, a*30.48, b, b*160934);
     }
 }
