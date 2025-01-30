@@ -8,7 +8,7 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-        ans = 1;
+        int ans = 1;
         for(int i=a;i<=b;i++){
             ans *=i;
         }
