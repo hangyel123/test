@@ -13,6 +13,6 @@ public class Main {
             ans *=i;
         }
 
-        System.out.print(ans)
+        System.out.print(ans);
     }
 }
